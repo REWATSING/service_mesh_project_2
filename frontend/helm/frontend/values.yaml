@@ -1,0 +1,6 @@
+---
+# Define values specific to the frontend Helm chart
+image:
+  repository: <your-frontend-image>
+  tag: latest
+

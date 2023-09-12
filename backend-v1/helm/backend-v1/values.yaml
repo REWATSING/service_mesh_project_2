@@ -1,0 +1,6 @@
+---
+# Define values specific to the backend-v1 Helm chart
+image:
+  repository: <your-backend-v1-image>
+  tag: latest
+

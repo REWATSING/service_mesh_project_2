@@ -1,0 +1,11 @@
+# values.yaml for Consul Helm Chart
+#
+# This file contains configuration options for deploying Consul using Helm.
+
+global:
+  datacenter: my-datacenter  # Name of the Consul datacenter
+
+server:
+  replicas: 3               # Number of Consul server replicas
+
+# Define additional configuration options for Consul here if needed.
